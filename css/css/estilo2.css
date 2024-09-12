@@ -1,0 +1,71 @@
+.borda{
+    border:1px solid red;
+}
+
+#p1{
+    display: block;
+}#p1:hover{
+    display: none;
+}
+
+li{
+    display:inline;
+}
+
+.blue{
+    background: blue;
+}
+.green{
+    background: red;
+}
+.red{
+    background: green;
+}
+
+.div{
+    display: inline-block;
+    width: 20%;
+    height: 150px;
+}
+
+a.botao{
+    border: 3px solid blue;
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    background: blue;
+    color: white;
+    border-radius: 10px;
+}.botao:hover{
+    background: rgb(100, 100, 255);
+    border: 3px solid rgb(100, 100, 255);
+    color: blue;
+}
+a.botao1{
+    border: 3px solid rgb(7, 204, 0);
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    background: rgb(56, 235, 11);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}.botao1:hover{
+    background: rgb(7, 204, 0);
+    border: 3px solid rgb(56, 235, 11);
+    color: rgb(255, 255, 255);
+}
+
+
+.example1{
+    max-width: 800px;
+}
+.example2{
+    max-width: 800px;
+}
+

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@100..400&family=Rubik:ital,wght@0,300..900;1,300..900&display =trocar');
+
+.botao{
+    display: inline-block;
+    margin-left: 30px;
+    background: green;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 74px;
+    padding-right: 50px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin: 10px;
+}.botao:hover{
+    opacity: 0.7;
+}
+
+
+.img1:hover{
+    opacity: 0.5;
+}
+.img2:hover{
+    opacity: 0.5;
+}
+.img3:hover{
+    opacity: 0.5;
+}
+
+a.botao1{
+    padding: 15px;
+    background: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}a.botao1:hover{
+    opacity: 0.5;
+}
+
+
+.transparente{
+    padding: 40px;
+    margin: 20px;
+    color: white;
+    background: blue;
+}.transparente:hover{
+    opacity: 0.5;
+    color: black;
+}

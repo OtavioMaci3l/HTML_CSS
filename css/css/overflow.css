@@ -1,0 +1,39 @@
+.botao{
+    display: inline-block;
+    margin-left: 30px;
+    background: green;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 74px;
+    padding-right: 50px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin: 10px;
+}.botao:hover{
+    background: rgb(0, 184, 0);
+}
+h1{
+    display: block;
+    position: sticky;
+    text-align: center;
+    border: 10px dashed rgb(66, 66, 66);
+    background-color: rgb(117, 124, 117);
+    top: 20px;
+    border-radius: 5px;
+
+}
+body{
+    overflow-y: auto;
+    overflow-x: auto;
+    background: rgb(66, 66, 66);
+    color: rgb(199, 199, 199);
+}
+
+.exemplo{
+    background: rgb(124, 124, 124);
+    color: rgb(216, 212, 212);
+    width: 1000px;
+    height: 150px;
+    overflow: auto;
+}

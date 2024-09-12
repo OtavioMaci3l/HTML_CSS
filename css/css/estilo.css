@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@100..400&family=Rubik:ital,wght@0,300..900;1,300..900&display =trocar');
+
+body{
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+}
+
+h1{
+    position: relative;
+    display: block;
+    top: 20px;
+    color:rgb(255, 255, 255);
+    border: 1px solid black;
+    background: black;
+    border-radius: 50px;
+    text-align: center;
+    margin: 20px 50px 10px 50px ;
+    padding: 50px 100px 50px 100px;
+    font-family: "Playwrite AU VIC";
+}
+h2{
+    color: green;
+    text-align: center;
+    font-style: italic;
+    font-family: "Rubik";
+}
+h3{
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 40px;
+    background: black;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin: 10px 50px 50px 50px;
+    padding: 25px 50px 25px 50px;
+    position: relative;
+    display: block;
+    top: 20px;
+    font-family: "Rubik";
+}
+p{
+    color: rgb(255, 255, 255);
+    margin: 50px;
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    word-spacing: 1px;
+    font-size: 15px;
+    font-weight:500;
+    text-align: center;
+    font-family: "Rubik";
+}
+
+.example-back{
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    background: gray url(/imagens/back-teste2.png) no-repeat center;
+}
+
+.botao{
+    display: inline-block;
+    margin-left: 30px;
+    background: green;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 10px;
+}.botao:hover{
+    background: rgb(0, 184, 0);
+}
+
+.teste{
+    color: black;
+    border-radius: 20px;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    background: rgb(0, 184, 0);
+
+}
+
+a.botao1{
+    background: darkgreen;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border: 5px solid rgb(0, 184, 0);
+    border-radius: 10px;
+}a.botao1:hover{
+    background: rgb(0, 184, 0);
+    padding: 15px;
+    text-decoration: none;
+    border: 5px solid darkgreen;
+    border-radius: 10px;
+}
+
+a.botao2{
+    text-decoration: none;
+    padding: 10px;
+    border: 5px double blue;
+    color: blue;
+}a.botao2:hover{
+    text-decoration: underline;
+    padding: 8px;
+    background: blue;
+    color: white;
+}
+
+a.botao3{
+    color: black;
+    text-decoration: none;
+}a.botao3:hover{
+    border-bottom: 5px solid rgb(255, 0, 0);
+    border-radius: 5px;
+}
+
+a.botao4{
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}a.botao4:hover{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+a.botao5{
+    cursor:cell;
+    border: 5px solid black;
+    color: white;
+    background: black;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 18px;
+}a.botao5:hover{
+    padding: 10px;
+    background: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a.botaoPF{
+    display: inline-block;
+    margin-left: 30px;
+    background: rgb(14, 235, 14);
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 10px;
+}.botaoPF:hover{
+    background: rgb(0, 255, 0);
+}

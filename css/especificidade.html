@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificidade</title>
+    <link rel="stylesheet" href="/css/especificidade.css">
+    <style>
+        h1{
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="Hierarquia">
+        <h1 id="greenm" class="red" >Hierarquia dos Style</h1>
+
+        <h2 class="explication">Hierarquia dos Styles dunciona da seguinte forma : <br>#id <br>tag.class <br>class.tag <br>tag</h2>
+
+        <h2 class="explication">Porem tem como pular essa hierarquia ultilizando do !important só qeu vira uma grante bagunça, OBS: o !important segue a hierarquia, então toma muito cuidado ao ultilizar o !important, mas evite</h2>
+        <br> <br> <hr> <br> <br>
+    </div>
+
+    <h2>Dregrade Reto </h2>
+    <div id="gradiente">
+    </div>
+    <br><br><br><br>
+    <h2>Dresgraze Reedondo</h2>
+    <div id="gradiente-redondo">
+    </div>
+
+    <br><br><br><br>
+    <div id="sombra">
+        <h2>SHADOWS <p style="display: inline; font-size: 20px;">(sombras com css)</p> </h2>
+        <p>Esse efeito é MUUUIIIITO ÚTIL dá pra fazer efeitos neon com ele muito foda adorei, lembrando que pra dar esse efeito neon a cor do text tem qeu ser da mesma cor das shadows</p>
+    </div>
+    <div id="sombras">
+        <h2>SHADOWS 2</h2>
+        <p>Tem como colocar varias sombras que tbm da um ótimo contraste nos led si liga<br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero ea nostrum, quia modi nulla repudiandae, laborum architecto maxime minus harum quam, enim nisi tempore. Dignissimos, excepturi? Consectetur est quisquam assumenda.</p>
+    </div>
+    <div class="caixa">
+        <img src="/imagens/hote-1.png" alt="" style="width: 226px; height: 200px;">
+        <h2 class="reduxtion">This is a Card a example of title veeeeeeeery loooooooooooong</h2>
+        <p class="reduxtion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis asperiores laborum eius velit vel aut dolorem dolor quasi, natus, exercitationem, quis necessitatibus! Quas, dicta quos eum voluptatum quod nam alias? </p>
+        <a href="/float.html" class="reduxtion, botao">Agendar agora</a>
+    </div>
+
+
+    <div id="voltar" style="margin-top: 50px;">
+        <hr>
+        <a href="index.html" class="botao">Voltar a página inicial</a>
+        <hr><br>
+    </div>
+    
+</body>
+</html>

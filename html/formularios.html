@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <br>
+    <form>
+
+        <label for="campo-nome">Nome:</label>
+        <input id="campo-nome" type="text" placeholder="Digite seu nome aqui" required>
+        <br>
+        <br>
+
+        <label for="campo-email">Email:</label>
+        <input id="campo-email" type="email" placeholder="Digite seu email aqui" required>
+        <br>
+        <br>
+
+        <label for="campo-senha">Senha:</label>
+        <input id="campo-senha" type="password" placeholder="Digite sua senha aqui" required>
+        <br><br>
+
+        <h2>Seleceione o seu animal de estimação : </h2>
+        <input type="radio" id="dog" name="animal" value="cachorro">
+        <label for="dog">Cachorro</label>
+        <br>
+        <input type="radio" id="cat" name="animal" value="gat">
+        <label for="cat">Gato</label>
+        <br>
+        <input type="radio" id="bird" name="animal" value="passarinho">
+        <label for="bird">Passarinho</label>
+        <br><br><br>
+
+        <h2>What you have in your house 🤨</h2>
+        <input id="item1" type="checkbox" name="item1" value="tv">
+        <label for="item1">TV</label>
+        <br>
+        <input type="checkbox" id="item2" name="item2" value="pc">
+        <label for="item2">PC</label>
+        <br>
+        <input type="checkbox" name="item3" id="item3" value="geladeira">
+        <label for="item3">Geladeira</label>
+        <br><br>
+
+        <h2>Escolha uma cor : </h2>
+        <select name="cores" required>
+            <option value="" selected disabled>Selecione uma cor</option>
+            <option value="vermelho">Vermelho </option>
+            <option value="azul">Azul </option>
+            <option value="amarelo">Amarelo </option>
+            <option value="verde">Verde </option>
+        </select>
+        <br><br>
+
+        <h2>Digite seu feedback sobre o site</h2>
+        <textarea placeholder="Digite seu Feedback" rows="15" cols="60" name="texto" id="texto1" required></textarea>
+
+        <br><br><br>
+        <input type="submit" value="Enviar formulário">
+        <br><br>
+
+    </form>
+    <button>Clique aqui</button>
+    <br>
+    <hr>
+    <a href="inicio.html">Voltar para página inicial</a>
+    <hr>
+
+</body>
+</html>

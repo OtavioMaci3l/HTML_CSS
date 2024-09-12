@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@100..400&family=Rubik:ital,wght@0,300..900;1,300..900&display =trocar');
+
+.botao{
+    display: inline-block;
+    margin-left: 30px;
+    background: green;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 10px;
+}.botao:hover{
+    background: rgb(0, 184, 0);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.flex-pai{
+    background: blue;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; /*alinhamento horizontal*/
+    align-items: center; /*alinhamento  vertical*/
+    align-content: center;
+    height: 600px;
+}
+
+.fixo{
+    background: green;
+    color: white;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    width: 150px;
+    height: 55px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+    border: 10px;
+    border-radius: 10px;
+    z-index: 999;
+    align-items: center;
+}.fixo:hover{
+    background: rgb(0, 205, 0);
+}
+
+
+/*pode ser ultilizado para página se adaptar ao modelo e tamanho da tela do dispositivo como no exemplo abaixo: 
+@media screen and (max-width:600px){
+    .flex-pai{
+        flex-direction:column;
+    }
+}*/
+
+.flex-pai div{
+    flex-grow: 1;
+    background: white;
+    border: 1px solid black;
+    padding: 30px;
+    text-align: center;
+}
