@@ -12,7 +12,7 @@ h1{
     color:rgb(255, 255, 255);
     border: 1px solid black;
     background: black;
-    border-radius: 50px;
+    border-radius: 25px;
     text-align: center;
     margin: 20px 50px 10px 50px ;
     padding: 50px 100px 50px 100px;
@@ -27,7 +27,7 @@ h2{
 h3{
     color: rgb(255, 255, 255);
     border: 1px solid black;
-    border-radius: 40px;
+    border-radius: 27px;
     background: black;
     text-align: center;
     margin-top: 40px;
@@ -64,7 +64,6 @@ p{
 
 .botao{
     display: inline-block;
-    margin-left: 30px;
     background: green;
     color: white;
     padding-top: 25px;
@@ -74,7 +73,8 @@ p{
     border-radius: 10px;
     text-decoration: none;
     margin: 10px;
-    display: flex; align-items: center; justify-content: center;
+    display:flexbox;
+    width: 23%;
 }.botao:hover{
     background: rgb(0, 184, 0);
 }
@@ -155,7 +155,7 @@ a.botao5{
 a.botaoPF{
     display: inline-block;
     margin-left: 30px;
-    background: rgb(0, 165, 0);
+    background: rgb(17, 173, 17);
     color: white;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -166,5 +166,5 @@ a.botaoPF{
     margin: 10px;
     display: flex; align-items: center; justify-content: center;
 }.botaoPF:hover{
-    background: rgb(86, 196, 86);
+    background: rgb(0, 150, 0);
 }
