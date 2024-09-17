@@ -17,7 +17,7 @@
 }
 
 body{
-    background: #444444;
+    background: #ffffff;
 }
 
 .container{
@@ -45,7 +45,7 @@ body{
 }
 
 h2{
-    color: rgb(255, 255, 255);
+    color: rgb(70, 70, 70);
     border-radius: 5px;
     text-align: center;
     padding: 1px 1px 1px 1px;
@@ -63,7 +63,7 @@ h4{
 }
 
 p{
-    color: rgb(211, 211, 211);
+    color: rgb(70, 70, 70);
     font-family: "Rubik";
 }
 
@@ -171,10 +171,11 @@ li.dropdown {
 .cabo{
     text-align: center;
     font-family: "Playwrite AU VIC";
+    color: rgb(70, 70, 70);
 }
 
 .barra{
-    border: 1px solid black;
+    border: 1px solid rgb(70, 70, 70);
 }
 
 .menu{
